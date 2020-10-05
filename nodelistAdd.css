@@ -1,0 +1,22 @@
+
+#flex{
+  display:flex ;
+  flex-wrap:wrap;
+  justify-content :space-around; 
+}
+.toggle_btn{
+  background-color: rgb(249, 168, 37);
+  border-color: #eeee;
+  width: 200px ;
+  height:200px ;
+}
+.toggle {
+  display:none;
+}
+.toggle.on{
+ display: block;
+ margin-top:20px;
+ background-color:rgb(240, 244, 195);
+  width:500px;
+  height:200px;
+}
