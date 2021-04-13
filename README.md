@@ -90,7 +90,7 @@ addEventListenerList( );
 ```
 const toggles = document.querySelectorAll(".toggle");
 const toggleBtns = document.querySelectorAll(".toggle_btn");
-Const arrayToggleBtns = Array.from(toggleBtns);
+onst arrayToggleBtns = Array.from(toggleBtns);
 
 function addEventListenerList( ){
    toggleBtns.forEach( btn => {
