@@ -3,7 +3,7 @@
 ## 코딩 배경 :토글 버튼을 만드는 코드에서의 문제점
 ### ● 토글 버튼을 만들 때 사용하는 코드
 
-###### java script 
+###### javascript 
 ```
 (function (window, document) {
   'use strict';
@@ -32,7 +32,7 @@
 ### 1. 문제점 해결 : 개별 요소마다 토글 버튼 기능 생성하기 
   forEach는 노드에서도 지원하기 때문에 이를 이용하여 개별 요소마다 토글 기능이 실행되도록 하였다. 
  
-#### java script
+#### javascript
   ```
   const $toggles = document.querySelectorAll(".toggle");
 const toggleBtns = document.querySelectorAll(".toggle_btn");
@@ -69,7 +69,7 @@ forEach();
   </div>
 </body>
 ```
-###### 방법 1) java script
+###### 방법 1) javascript
 ```
 const toggles = document.querySelectorAll(".toggle");
 const toggleBtns = document.querySelectorAll(".toggle_btn");
@@ -86,7 +86,7 @@ function addEventListenerList( ){
      ;} }
 addEventListenerList( );
 ```
-###### 방법 2) java script
+###### 방법 2) javascript
 ```
 const toggles = document.querySelectorAll(".toggle");
 const toggleBtns = document.querySelectorAll(".toggle_btn");
